@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Order form</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/d2407363ab.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="title">Order form</div>
+            <form class="form" action="#" id="form">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Ime i prezime</span>
+                        <input type="text" placeholder="Unesite svoje ime i prezime" required id="ime">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small></small>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Telefon</span>
+                        <input type="text" placeholder="Unesite svoj broj telefona" required id="broj-telefona">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small></small>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Adresa stanovanja</span>
+                        <input type="text" placeholder="Unesite svoju adresu stanovanja" required id="adresa">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small></small>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Kućni broj</span>
+                        <input type="text" placeholder="Unesite svoj kućni broj" required id="kucni-broj"> 
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small></small>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Poštanski broj</span>
+                        <input type="text" placeholder="Unesite svoj poštanski broj" required id="postanski-broj">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small></small>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Mjesto</span>
+                        <input type="text" placeholder="Unesite mjesto stanovanja" required id="mjesto">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small></small>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email adresa</span>
+                        <input type="text" placeholder="Unesite svoju email adresu" required id="email">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small></small>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Posebna napomena</span>
+                        <input type="text" placeholder="Unesite posebnu napomenu" required id="napomena">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small></small>
+                    </div>
+                </div>
+                <button class="button" type="button" onclick="checkInputs()"> Order </button>
+            </form>
+        </div>
+        <script src="App.js"></script>
+    </body>
+</html>
